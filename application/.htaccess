@@ -1,4 +1,4 @@
-Rewriteengine on
+RewriteEngine on
 Rewritecond %{REQUEST_FILENAME} !-F
 Rewritecond %{REQUEST_FILENAME} !-d
-Rewriterule ^(.*)$ index.php/$1 [l]
+RewriteRule ^(.*)$ index.php/$1 [l]
